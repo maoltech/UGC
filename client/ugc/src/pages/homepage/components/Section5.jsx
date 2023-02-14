@@ -2,8 +2,8 @@ import img from "../../../assets/homesection5.jpg";
 import { BsStarFill } from "react-icons/bs";
 const Section5 = () => {
   return (
-    <div>
-      <div className="w-[80%] mx-auto">
+    <div className="mx-auto">
+      <div className="w-[80%] max-w-[1328px] mx-auto">
         <h2 className="font-[500] leading-[84px] text-center text-[#111827] text-[2rem]">
           Some Success Stories
         </h2>

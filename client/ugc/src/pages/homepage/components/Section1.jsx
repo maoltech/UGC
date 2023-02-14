@@ -2,8 +2,8 @@ import React from "react";
 
 const Section1 = () => {
   return (
-    <div>
-      <div className="w-[80%] mx-auto">
+    <div className="mx-auto">
+      <div className="w-[80%] max-w-[1328px] mx-auto">
         <h2 className="text-center font-[600] text-[2.5rem] leading-[64px] text-[#111827]">
           Sie suchen nach einer Möglichkeit, Ihre UGC-Videos zu vermarkten und
           Ihre Reichweite zu erhöhen?

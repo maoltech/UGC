@@ -3,8 +3,8 @@ import Button from "../../../global/Button";
 import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 const Section3 = () => {
   return (
-    <div>
-      <div className="w-[80%] mx-auto grid grid-cols-[40%_60%] items-center">
+    <div className="mx-auto">
+      <div className="w-[80%] max-w-[1328px] mx-auto grid grid-cols-[40%_60%] items-center">
         <div className="relative">
           <IoIosArrowDropleft className="absolute text-[2rem] text-[#0041EA]/[80%] top-[50%] left-[5%] translate-y-[-50%]" />
           <IoIosArrowDropright className="absolute text-[2rem] text-[#0041EA]/[80%] top-[50%] right-[5%] translate-y-[-50%]" />

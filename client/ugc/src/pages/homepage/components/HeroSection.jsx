@@ -6,8 +6,8 @@ import { HiOutlineShieldCheck } from "react-icons/hi";
 import { AiOutlineStar } from "react-icons/ai";
 const HeroSection = () => {
   return (
-    <div>
-      <div className="w-[80%] mx-auto">
+    <div className="mx-auto">
+      <div className="w-[80%] max-w-[1328px] mx-auto">
         <div
           style={{ backgroundImage: `url(${HeroBg})`, backgroundSize: "cover" }}
           className="rounded-[10px] py-[2rem] w-full"

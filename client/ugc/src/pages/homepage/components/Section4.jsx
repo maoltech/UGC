@@ -9,9 +9,9 @@ const Section4 = () => {
         backgroundSize: "cover",
         clipPath: "polygon(0 20%, 100% 10%, 100% 80%, 0 95%)",
       }}
-      className="py-[10rem] w-full"
+      className="py-[10rem] w-full mx-auto"
     >
-      <div className="w-[80%] mx-auto">
+      <div className="w-[80%] max-w-[1328px] mx-auto">
         <h2 className="text-center font-[600] mb-[1rem] text-[#F8FAFC] text-[2rem]">
           How it works ?
         </h2>

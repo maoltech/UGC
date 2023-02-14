@@ -1,8 +1,8 @@
 import sectionImg from "../../../assets/homesection2.svg";
 const Section2 = () => {
   return (
-    <div>
-      <div className="w-[80%] mx-auto">
+    <div className="mx-auto">
+      <div className="w-[80%] max-w-[1328px] mx-auto">
         <div
           style={{
             backgroundImage: `url(${sectionImg})`,

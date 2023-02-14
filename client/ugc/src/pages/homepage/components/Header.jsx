@@ -2,8 +2,8 @@ import Logo from "../../../assets/logo.svg";
 import Button from "../../../global/Button";
 const Header = () => {
   return (
-    <div className="w-full bg-[#F8FAFC] shadow-[0px 2px 6px] shadow-[#0000]/[6%]">
-      <div className="grid grid-cols-[60%_40%] w-[80%] mx-auto py-[0.2rem] content-center text-[1rem] font-[400] leading-[27px] text-[#111827]">
+    <div className="w-full bg-[#F8FAFC] mx-auto shadow-[0px 2px 6px] shadow-[#0000]/[6%]">
+      <div className="grid grid-cols-[60%_40%] w-[80%] max-w-[1328px] mx-auto py-[0.2rem] content-center text-[1rem] font-[400] leading-[27px] text-[#111827]">
         <div className="flex items-center justify-between">
           <img
             src={Logo}
