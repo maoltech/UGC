@@ -8,9 +8,6 @@ const authapi = axios.create({
 const api = axios.create({
   baseURL: baseURL,
   withCredentials: true,
-  headers: {
-    Authorization: `Bearer ${sessionStorage.getItem("token")}`,
-  },
 });
 
 api.interceptors.response.use(undefined, function (error) {
@@ -44,18 +41,33 @@ api.interceptors.response.use(undefined, function (error) {
 export const getAPI = (url, signal, param) => {
   return api.get(`${url}`, {
     signal: signal,
+    headers: {
+      Authorization: `Bearer ${sessionStorage.getItem("token")}`,
+    },
     params: {},
   });
 };
 
 export const postAPI = (url, body) => {
-  return api.post(`${url}`, body, {});
+  return api.post(`${url}`, body, {
+    headers: {
+      Authorization: `Bearer ${sessionStorage.getItem("token")}`,
+    },
+  });
 };
 
 export const putAPI = (url, body) => {
-  return api.put(`${url}`, body, {});
+  return api.put(`${url}`, body, {
+    headers: {
+      Authorization: `Bearer ${sessionStorage.getItem("token")}`,
+    },
+  });
 };
 
 export const patchAPI = (url, body) => {
-  return api.patch(`${url}`, body, {});
+  return api.patch(`${url}`, body, {
+    headers: {
+      Authorization: `Bearer ${sessionStorage.getItem("token")}`,
+    },
+  });
 };
